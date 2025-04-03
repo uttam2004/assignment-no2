@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+
+.quickcend-font {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+/* navbar-related-styles */
+.navbar{
+    align-items: center;
+    justify-content: space-between;
+}
+.step-1{
+    width: 202px;
+    height: 62px;
+    align-items: center;
+}
+.school{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.nav-links{
+    gap: 30px;
+}
+.nav-item{
+    list-style: none;
+}
+.nav-link{
+    text-decoration: none;
+}
+.first-btn{
+    background-color: orange;
+    color: white;
+    padding: 10px 60px;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+#nav-1{
+    color: orange;
+    font-weight: 700;
+    font-size: 20px;
+}
+#nav-2{
+    color: skyblue;
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav-3{
+    color: rgba(5, 212, 223, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+#nav-4{
+    color: rgba(93, 88, 239, 1);
+    font-size: 20px;
+    font-weight: 500;
+}
+/* banner-related-styles */
+.banner{
+    gap: 50px;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+.title-no1{
+    color: orange;
+}
+.title-no2{
+    color: black;
+}
+.title-no3{
+    color: skyblue;
+}
+.banner-description{
+    color: black;
+    font-size: 1.25rem;
+}
+.btn-parimary{
+    background-color: black;
+    color: white;
+    border-radius: 12px;
+    padding: 10px 47px;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+/* shared-styles */
+.display-flex{
+    display: flex;
+}
+main{
+    background-image: url(../assets/bg.png);
+}
+
+/* standard-curiculam-related-styles */
+.standard-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: black;
+}
+.card-container{
+    gap: 28px;
+    justify-content: space-between;
+}
+.card-no1,.card-no2,.card-no3{
+    padding: 50px 40px;
+    border-radius: 18.86px;
+    text-align: center;
+}
+.card-no1{
+    background-color: rgba(222, 245, 255, 1);
+    box-shadow: 0 0 28.3px 0.94px 000000; 
+}
+.card-no2{
+    background-color: rgba(255, 244, 220, 1);
+    box-shadow: 0 0 28.3px 0.94px 000000;
+}
+.card-no3{
+    background-color: rgba(242, 232, 255, 1);
+    box-shadow: 0 0 28.3px 0.94px 000000;
+}
+.Read-More-1{
+    color: rgba(100, 200, 255, 1);
+    font-weight: 700;
+}
+.Read-More-2{
+    color: rgba(240, 170, 0, 1);
+    font-weight: 700;
+}
+.Read-More-3{
+    color: rgba(135, 0, 255, 1);
+    font-weight: 700;
+}
+.title{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.description{
+    font-weight: 500;
+    color: rgba(128, 128, 128, 1);
+}
+
+
+/* responsive-media-query */
