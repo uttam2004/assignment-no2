@@ -16,15 +16,16 @@ main{
     background-image: url(../assets/bg.png);
 }
 header,main{
-    /* padding: 0px 60px; */
     max-width: 1440px;
 }
 
+.parimary-padding{
+    padding: 60px;
+}
 /* navbar-related-styles */
 .navbar{
     align-items: center;
     justify-content: space-between;
-    padding: 60px;
 }
 .step-1{
     width: 202px;
@@ -78,8 +79,6 @@ header,main{
 .banner{
     gap: 50px;
     justify-content: space-between;
-    /* margin: 20px 16px; */
-    padding: 60px;
 }
 .banner-title{
     font-weight: 700;
@@ -114,7 +113,7 @@ header,main{
     grid-template-columns: repeat(3,1fr);
     gap: 28px;
     justify-content: space-between;
-    padding: 60px;
+    /* padding: 60px; */
 }
 .standard-title{
     text-align: center;
@@ -178,7 +177,90 @@ header,main{
     font-size: 1.5rem;
   }
 /* our-story-related-styles */
-
+.Our-Stories img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+.btn-1{
+    background-color: rgba(60, 216, 232, 1);
+    padding: 14px 14px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left: 38px;
+}
+.Our-Stories-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+}
+.story-1{
+    background-color: rgba(255, 255, 255, 1);
+    width: 50%;
+    border-radius: 16px;
+}
+.common-padding{
+    padding: 26px 32px;
+    text-align: left;
+}
+.story-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+.story-description{
+    font-weight: 500;
+    font-size: 15px;
+    color: rgba(102, 102, 102, 1);
+}
+/* story-2 */
+.story-container{
+    gap: 26px;
+    justify-content: center;
+}
+.story-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 17px;
+    width: 50%;
+    /* background-color: cadetblue; */
+}
+.story-item{
+    border-radius: 16px;
+    background-color: rgba(255, 255, 255, 1);
+}
+.btn-2,.btn-3, .btn-4, .btn-5{
+    background-color: rgba(149, 178, 38, 1);
+    padding: 12px 16px;
+    border: none;
+    border-radius: 20px;
+    margin-top: -30px;
+    margin-left: 38px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 500;
+}
+.btn-3{
+    background-color: rgba(93, 88, 240, 1);
+}
+.btn-4{
+    background-color: rgba(149, 178, 38, 1);
+}
+.btn-5{
+    background-color: rgba(149, 178, 38, 1);
+}
+.btn-6{
+    border: none;
+    padding: 10px 60px;
+    border-radius: 12px;
+    background-color: black;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 1.25rem;
+    margin-top: 80px;
+}
+.view-all-button{
+    text-align: center;
+}
 
 /* responsive-media-query */
 @media screen and (max-width:576px){
