@@ -165,6 +165,7 @@ header,main{
     display: flex;
     gap: 6px;
     justify-content: center;
+    margin-top: 80px;
   }
 .ball{
     height: 40px;
@@ -172,9 +173,9 @@ header,main{
     border-radius: 50%;
     background-color: orange;
     text-align: center;
-    align-items: center;
     color: rgba(255, 255, 255, 1);
     font-size: 1.5rem;
+    font-weight: 600;
   }
 /* our-story-related-styles */
 .Our-Stories img{
@@ -223,7 +224,6 @@ header,main{
     grid-template-columns: repeat(2,1fr);
     gap: 17px;
     width: 50%;
-    /* background-color: cadetblue; */
 }
 .story-item{
     border-radius: 16px;
@@ -262,6 +262,9 @@ header,main{
     text-align: center;
 }
 
+/* footer-related-styles */
+
+
 /* responsive-media-query */
 @media screen and (max-width:576px){
     /* shared-styles */
@@ -277,7 +280,7 @@ header,main{
         padding: 0px 16px;
     }
 
-    .ball-container{
+    .ball-container, .story-1{
         display: none;
     }
     /* navbar-related */
@@ -289,13 +292,37 @@ header,main{
         text-align: center;
     }  
     /* standard-curiculam-related-styles */
+    .Standard-Curriculum{
+        padding: 0px 16px;
+    }
     .card-container{
         grid-template-columns: 1fr;
         gap: 12.3px;
-        padding: 0px 16px;
-        
+        padding: 0px 6px;
+        width: 100%;  
     }
 
-    
-    
+    /* our-story-styles */
+    .Our-Stories{
+        padding: 0px 16px;
+    }
+    .story-2{
+        width: 100%;
+        /* background-color: bisque; */
+        gap: 11px;
+    }
+    .story-item{
+        width: auto;
+        height: auto;
+    }
+    .common-btn{
+        padding: 5px 10px;
+        margin-left: 22px;
+        margin-top: -22px;
+    }
+    .view-all-button{
+        margin-top: 15px;
+        margin-bottom: 40px;
+    }
+
 }
