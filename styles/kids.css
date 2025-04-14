@@ -15,7 +15,7 @@
 main{
     background-image: url(../assets/bg.png);
 }
-header,main{
+header,main,footer{
     max-width: 1440px;
 }
 
@@ -263,7 +263,30 @@ header,main{
 }
 
 /* footer-related-styles */
-
+.footer-part{
+    background-color: rgba(1, 172, 253, 1);
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 120px 140px;
+}
+.kidz-education{
+    justify-content: left;
+    text-align: left;
+}
+.common-color{
+    color: rgba(255, 255, 255, 1);
+}   
+.kidz-title{
+    text-align: left;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgba(255, 255, 255, 1);
+}
+.kidz-description{
+    color: rgba(255, 255, 255, 1);
+    font-size: 1.25rem;
+}
 
 /* responsive-media-query */
 @media screen and (max-width:576px){
