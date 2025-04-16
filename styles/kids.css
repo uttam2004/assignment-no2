@@ -264,7 +264,7 @@ header,main,footer{
 
 /* footer-related-styles */
 .footer-part{
-    background-color: rgba(1, 172, 253, 1);
+    background-color: rgb(75, 190, 243);
     display: flex;
     gap: 20px;
     justify-content: space-between;
