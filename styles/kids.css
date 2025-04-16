@@ -287,6 +287,10 @@ header,main,footer{
     color: rgba(255, 255, 255, 1);
     font-size: 1.25rem;
 }
+.About-School-title{
+    font-size: 1.5rem;
+    font-weight: 700;
+}
 
 /* responsive-media-query */
 @media screen and (max-width:576px){
@@ -346,6 +350,12 @@ header,main,footer{
     .view-all-button{
         margin-top: 15px;
         margin-bottom: 40px;
+    }
+    /* footet-section */
+    .footer-part{
+        flex-direction: column;
+        padding: 20px;
+        gap: 15px;
     }
 
 }
