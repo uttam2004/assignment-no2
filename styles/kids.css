@@ -3,9 +3,6 @@
 
 .quickcend-font{
     font-family: "Quicksand", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
 }
 
 /* shared-styles */
@@ -329,6 +326,11 @@ header,main,footer{
         width: 100%;  
     }
 
+    .mx-auto{
+        justify-items: center;
+        
+    }
+
     /* our-story-styles */
     .Our-Stories{
         padding: 0px 16px;
@@ -336,6 +338,7 @@ header,main,footer{
     .story-2{
         width: 100%;
         /* background-color: bisque; */
+        grid-template-columns: 1fr;
         gap: 11px;
     }
     .story-item{
